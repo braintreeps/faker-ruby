@@ -68,7 +68,7 @@ Installing
 gem install faker
 ```
 
-##Usage
+## Usage
 -----
 ```ruby
 Faker::Name.name      #=> "Christophe Bartell"
@@ -119,7 +119,7 @@ Faker::Address.longitude #=> "-156.65548382095133"
 
 ```
 
-###Faker::Bitcoin
+### Faker::Bitcoin
 -----------------
 
 ```ruby
@@ -129,7 +129,7 @@ Faker::Bitcoin.testnet_address #=> "msHGunDvoEwmVFXvd2Bub1SNw5RP1YHJaf"
 
 ```
 
-###Faker::Business
+### Faker::Business
 ------------------
 
 ```ruby
@@ -142,7 +142,7 @@ Faker::Business.credit_card_type #=> "visa"
 
 ```
 
-###Faker::Code
+### Faker::Code
 --------------
 
 ```ruby
@@ -157,7 +157,7 @@ Faker::Code.asin #=> "B00000IGGJ"
 
 ```
 
-###Faker::Color
+### Faker::Color
 ---------------
 
 ```ruby
@@ -174,7 +174,7 @@ Faker::Color.hsla_color #=> [154.77, 232.36, 58.9, 0.26170574657729073]
 
 ```
 
-###Faker::Commerce
+### Faker::Commerce
 ------------------
 
 ```ruby
@@ -196,7 +196,7 @@ Faker::Commerce.promotion_code #=> "AmazingDeal829102"
 
 ```
 
-###Faker::Company
+### Faker::Company
 -----------------
 
 ```ruby
@@ -230,7 +230,7 @@ Faker::Company.profession #=> "firefighter"
 
 ```
 
-###Faker::Date
+### Faker::Date
 ---------------------
 
 ```ruby
@@ -247,7 +247,7 @@ Faker::Date.forward(23) # => "Fri, 03 Oct 2014"
 Faker::Date.backward(14) #=> "Fri, 19 Sep 2014"
 ```
 
-###Faker::Internet
+### Faker::Internet
 ---------------
 
 ```ruby
@@ -323,7 +323,7 @@ Faker::Internet.slug('foo bar', '-') #=> "foo-bar"
 
 ```
 
-###Faker::File
+### Faker::File
 ---------------
 ```ruby
 Faker::File.extension #=> "mp3"
@@ -335,7 +335,7 @@ Faker::File.file_name('foo/bar', 'baz', 'doc') #=> "foo/bar/baz.doc"
 Faker::File.file_name('foo/bar', 'baz', 'mp3', '\') #=> "foo\bar\baz.mp3"
 ```
 
-###Faker::Lorem
+### Faker::Lorem
 ---------------
 
 ```ruby
@@ -377,7 +377,7 @@ Faker::Lorem.paragraphs(1, true) #=> ["Depulso animi cunctatio amicitia adficio.
 
 ```
 
-###Faker::Name
+### Faker::Name
 --------------
 
 ```ruby
@@ -398,7 +398,7 @@ Faker::Name.title            #=> "Legacy Creative Director"
 
 ```
 
-###Faker::Avatar
+### Faker::Avatar
 ----------------
 
 ```ruby
@@ -416,7 +416,7 @@ Faker::Avatar.image("my-own-slug", "50x50", "bmp") #=> "https://robohash.org/my-
 Faker::Avatar.image("my-own-slug", "50x50", "bmp", "set1", "bg1") #=> "https://robohash.org/my-own-slug.bmp?size=50x50&set=set1&bgset=bg1"
 ```
 
-###Faker::Number
+### Faker::Number
 ----------------
 
 ```ruby
@@ -442,7 +442,7 @@ Faker::Number.digit #=> "1"
 
 ```
 
-###Faker::Boolean
+### Faker::Boolean
 ----------------
 
 ```ruby
@@ -454,7 +454,7 @@ Faker::Boolean.boolean(0.2) #=> false
 
 ```
 
-###Faker::PhoneNumber
+### Faker::PhoneNumber
 ---------------------
 
 Phone numbers may be in any of the following formats:
@@ -496,7 +496,7 @@ Faker::PhoneNumber.extension #=> "3764"
 
 ```
 
-###Faker::Time
+### Faker::Time
 ---------------------
 
 ```ruby
@@ -522,7 +522,7 @@ Faker::Time.forward(23, :morning) # => "2014-09-26 06:54:47 -0700"
 Faker::Time.backward(14, :evening) #=> "2014-09-17 19:56:33 -0700"
 ```
 
-###Faker::Hacker
+### Faker::Hacker
 ---------------------
 Are you having trouble writing tech-savvy dialogue for your latest screenplay?
 Worry not! Hollywood-grade technical talk is ready to fill out any form where you need to look smart.
@@ -547,7 +547,7 @@ Faker::Hacker.verb  #=> "bypass"
 Faker::Hacker.ingverb #=> "synthesizing"
 ```
 
-###Faker::Crypto
+### Faker::Crypto
 ---------------------
 
 ```ruby
@@ -560,7 +560,7 @@ Faker::Crypto.sha256 #=> "51e4dbb424cd9db1ec5fb989514f2a35652ececef33f21c8dd1fd6
 
 ```
 
-###Faker::App
+### Faker::App
 -----------------
 
 ```ruby
@@ -573,7 +573,7 @@ Faker::App.author #=> "Daphne Swift"
 
 ```
 
-###Faker::SlackEmoji
+### Faker::SlackEmoji
 -----------------
 
 ```ruby
@@ -607,7 +607,7 @@ Faker::SlackEmoji.emoji #=> ":last_quarter_moon:"
 
 ```
 
-###Faker::Team
+### Faker::Team
 -----------------
 
 ```ruby
@@ -626,7 +626,7 @@ Faker::Team.sport #=> "lacrosse"
 
 ```
 
-###Faker::Book
+### Faker::Book
 ------------------
 
 ```ruby
@@ -645,7 +645,7 @@ Faker::Book.genre #=> "Mystery"
 
 ```
 
-###Faker::University
+### Faker::University
 ------------------
 
 ```ruby
@@ -655,7 +655,7 @@ Faker::University.name #=> "South Texas College"
 
 ```
 
-###Faker::Placeholdit
+### Faker::Placeholdit
 ----------------
 
 ```ruby
@@ -674,7 +674,7 @@ Faker::Placeholdit.image("50x50", 'jpg', 'ffffff', '000', 'Some Custom Text') #=
 
 ```
 
-###Faker::Hipster
+### Faker::Hipster
 ----------------
 Adapted from [Hipster Ipsum](http://hipsum.co/)
 
@@ -713,7 +713,7 @@ Faker::Hipster.paragraphs(1) #=> ["Skateboard cronut synth +1 fashion axe. Pop-u
 Faker::Hipster.paragraphs(1, true) #=> ["Quae direct trade pbr&b quo taxidermy autem loko. Umami quas ratione migas cardigan sriracha minima. Tenetur perspiciatis pickled sed eum doloribus truffaut. Excepturi dreamcatcher meditation."]
 ```
 
-###Faker::Superhero
+### Faker::Superhero
 ------------------
 
 ```ruby
@@ -726,7 +726,7 @@ Faker::Superhero.power #=> "Photokinesis"
 ```
 
 
-###Faker::StarWars
+### Faker::StarWars
 ----------------
 
 ```ruby
@@ -743,7 +743,7 @@ Faker::StarWars.specie #=> "Gungan"
 Faker::StarWars.vehicle #=> "Sandcrawler"
 ```
 
-###Faker::Beer
+### Faker::Beer
 ----------------
 
 ```ruby
@@ -764,14 +764,14 @@ Faker::Beer.alcohol #=> "6.3%"
 Faker::Beer.blg #=> "18.5°Blg"
 ```
 
-###Faker::ChuckNorris
+### Faker::ChuckNorris
 ----------------
 
 ```ruby
 Faker::ChuckNorris.fact #=> "Chuck Norris can solve the Towers of Hanoi in one move."
 ```
 
-###Faker::Educator
+### Faker::Educator
 -------------------
 
 ```ruby
@@ -784,7 +784,7 @@ Faker::Educator.course #=> "Associate Degree in Criminology"
 Faker::Educator.campus #=> "Vertapple Campus"
 ```
 
-###Faker::Space
+### Faker::Space
 ----------------
 
 ```ruby
@@ -826,7 +826,7 @@ Faker::Space.distance_measurement #=> "15 parsecs"
 ```
 
 
-###Faker::Music
+### Faker::Music
 -------------------
 
 ```ruby
@@ -835,7 +835,7 @@ Faker::Music.key #=> "C"
 Faker::Music.instrument #=> "Ukelele"
 ```
 
-###Faker::Vehicle
+### Faker::Vehicle
 ------------------
 
 ```ruby
@@ -847,7 +847,7 @@ Faker::Vehicle.vin #=> "LLDWXZLG77VK2LUUF"
 Faker::Vehicle.manufacture #=> "JAGUAR CARS LTD"
 ```
 
-###Faker::GameOfThrones
+### Faker::GameOfThrones
 ----------------
 
 ```ruby
@@ -858,7 +858,7 @@ Faker::GameOfThrones.house #=> "Stark"
 Faker::GameOfThrones.city #=> "Lannisport"
 ```
 
-###Faker::Pokemon
+### Faker::Pokemon
 ----------------
 
 ```ruby
@@ -867,7 +867,7 @@ Faker::Pokemon.name #=> "Pikachu"
 Faker::Pokemon.location #=> "Pallet Town"
 ```
 
-###Faker::Food
+### Faker::Food
 ----------------
 
 ```ruby
